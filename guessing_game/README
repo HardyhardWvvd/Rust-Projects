@@ -1,0 +1,2 @@
+The guessing game is a project given by the Rust developers as a sample project introducing some Rust fundamentals. 
+Undertaken are the input and output functions, string conversion to integer format and random selection of numbers. Additionally, termination of recurrent processes has been applied.

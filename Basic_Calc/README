@@ -1,2 +1,2 @@
-The guessing game is a project given by the Rust developers as a sample project introducing some Rust fundamentals. 
-Undertaken are the input and output functions, string conversion to integer format and random selection of numbers. Additionally, termination of recurrent processes has been applied.
+In this Basic calculator project, I seek to create a code that can execute the four primary mathematical functions of addition, subtraction,multiplication and Division.
+Only the input/output crate has been used to enable input and otput functions, the rest is supposed to be done using programmed code elements.

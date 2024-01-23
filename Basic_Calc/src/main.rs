@@ -11,43 +11,62 @@ fn main() {
             .expect("Failed to read input");
     
         let entry:u32 = match entry.trim().parse(){
-        Ok(num) => num,
-        Err(_) => continue,
+            Ok(num) => num,
+            Err(_) => continue,
+        };
+
+        let mut w= String::new();
+        io::stdin()
+            .read_line(&mut w)
+            .expect("Input a value");
+
+        let w: u32= match w.trim().parse(){
+            Ok(num) => num,
+            Err(_) => continue,
+        };
+
+        let mut b= String::new();
+        io::stdin()
+            .read_line(&mut b)
+            .expect("Input a value");
+
+        let b: u32= match b.trim().parse(){
+            Ok(num) => num,
+            Err(_) => continue,
+        };
+
+        if entry ==1 {
+            sum(w, b);
+        }
+        else if entry == 2{
+            difference(w, b);
+        }
+        else if entry==3{
+            product(w, b);
+        }
+        else if entry ==4{
+            chief_quotient(w, b);
+        }
+        else if entry == 5{
+            remainder(w, b);
+        }
+        else {
+            println!("You have not entered a relevant choice");
         };
     }
-
-    if entry= 1{
-        sum;
-    }
-    else if entry= 2{
-        difference;
-    }
-    else if entry=3{
-        product;
-    }
-    else if entry=4{
-        ChiefQuotient;
-    }
-    else if entry=5{
-        Remainder;
-    }
-    else {
-        println!("You have not entered a relevant choice");
-    }
 }
-
 fn sum(w: u32,b: u32){
-    println!("sum ={},w+b");
+    println!("sum ={}",w+b);
 }
-fn difference(w: u32,b: u32){
-    println!("Difference= {},w-b");
+fn difference(w: u32,b:u32){
+    println!("Difference= {}",w-b);
 }
 fn product(w: u32,b: u32){
-    println!("Product= {},w*b");
+    println!("Product= {}",w*b);
 }
-fn ChiefQuotient(w: u32,b: u32){
-    println!("Quotient= {},w/b"); 
+fn chief_quotient(w: u32,b: u32){
+    println!("Quotient= {}",w/b); 
 }
-fn Remainder(w: u32,b: u32){
-    println!("Remainder= {},w%b");
+fn remainder(w: u32,b: u32){
+    println!("Remainder= {}",w%b);
 }

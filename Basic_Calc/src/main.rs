@@ -59,7 +59,11 @@ fn sum(w: u32,b: u32){
     println!("sum ={}",w+b);
 }
 fn difference(w: u32,b:u32){
+    if w<b{
+        println!("Difference= -{}",b-w);
+    }else{
     println!("Difference= {}",w-b);
+    }
 }
 fn product(w: u32,b: u32){
     println!("Product= {}",w*b);

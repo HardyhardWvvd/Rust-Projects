@@ -1,2 +1,2 @@
-This project prints out the Fibonacci sequence for a finite number of tries within the sequence using Rust.
+This project prints out the Fibonacci sequence for a predetermined finite number of tries within the sequence using Rust.
 More functionalities will be added in due time.

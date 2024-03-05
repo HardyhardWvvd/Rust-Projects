@@ -1,0 +1,29 @@
+Traffic Light Simulator:
+Create a simple program that simulates a traffic light system. Use enums to represent the different states of the traffic light (e.g., Red, Yellow, Green). Allow users to trigger state transitions and display the current state.
+
+Card Game:
+Build a basic card game, such as Blackjack or Uno. Use enums to represent different card suits and values. Implement game logic with enums to manage the state of the game, player hands, and card interactions.
+
+File Type Checker:
+Write a program that reads the first few bytes of a file and determines its type (e.g., image, text, binary). Use enums to represent different file types and create a function to classify files based on their content.
+
+Shape Calculator:
+Implement a simple shape calculator that can calculate the area and perimeter of basic shapes (circle, square, rectangle). Use enums to represent different shapes and define methods for each shape to perform calculations.
+
+Coin Change Calculator:
+Create a program that calculates the minimum number of coins needed to make change for a given amount. Use enums to represent different coin denominations and implement the logic to find the optimal combination of coins.
+
+Weather App:
+Build a weather application that fetches data from an API and displays the current weather conditions. Use enums to represent different weather conditions (e.g., sunny, rainy, snowy) and display the appropriate information based on the API response.
+
+Task Manager:
+Develop a simple command-line task manager. Use enums to represent the status of tasks (e.g., to-do, in-progress, completed) and implement functionality to add, update, and view tasks.
+
+StateMachine Simulator:
+Create a finite state machine simulator. Use enums to represent different states and transitions. Allow users to define state machines and simulate transitions between states based on input.
+
+Authentication System:
+Build a basic authentication system with user roles. Use enums to represent different user roles (e.g., admin, regular user) and implement authentication logic that grants or denies access based on the user's role.
+
+Color Palette Generator:
+Develop a program that generates color palettes. Use enums to represent different color schemes (e.g., monochromatic, analogous, complementary) and implement algorithms to generate visually appealing color combinations.
